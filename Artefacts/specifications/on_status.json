@@ -1,0 +1,97 @@
+{
+    "context": {
+    "domain": "uei:charging",
+    "action": "on_status",
+    "location": {
+        "city": {
+            "code": "std:080"
+        },
+        "country": {
+            "code": "IND"
+        }
+    },
+    "version": "1.0.0",
+    "bap_id": "examplebap.com",
+    "bap_uri": "https://examplebap.com",
+    "bpp_id": "",
+    "bpp_uri": "",
+    "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62195",
+    "message_id": "$3faf9bc5-6107-42a1-add3-c4af6fa3bad6",
+    "timestamp": "2022-10-11T09:55:41.161Z"
+},
+"message": {
+    "order": {
+        "id": "11987539",
+        "provider": {
+            "descriptor": {
+                "name": "Log 9 CMS"
+            }
+        },
+        "items": [
+            {
+                "id": "1",
+                "descriptor": {
+                    "name": "Energy Units"
+                },
+                "tags": [
+                    {
+                        "descriptor": {
+                            "name": "Battery Charging Status",
+                            "list": [
+                                {
+                                    "descriptor": {
+                                        "code": "context",
+                                        "name": "context"
+                                    },
+                                    "value": "Sample.Periodic",
+                                    "display": "true"
+                                },
+                                {
+                                    "descriptor": {
+                                      "code": "format",
+                                        "name": "format"
+                                    },
+                                    "value": "Raw",
+                                    "display": "true"
+                                },
+                                {
+                                    "descriptor": {
+                                      "code": "phase",
+                                        "name": "phase"
+                                    },
+                                    "value": "",
+                                    "display": "true"
+                                },
+                                {
+                                    "descriptor": {
+                                      "code": "measurand",
+                                        "name": "measurand"
+                                    },
+                                    "value": "soc",
+                                    "display": "true"
+                                },
+                                {
+                                    "descriptor": {
+                                      "code": "unit",
+                                        "name": "unit"
+                                    },
+                                    "value": "percent",
+                                    "display": "true"
+                                },
+                                {
+                                    "descriptor": {
+                                      "code": "value",
+                                        "name": "value"
+                                    },
+                                    "value": "15",
+                                    "display": "true"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
+}
