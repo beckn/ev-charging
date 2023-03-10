@@ -1,0 +1,96 @@
+{
+    "context": {
+        "domain": "uei:charging",
+        "action": "select",
+        "location": {
+            "city": {
+                "name": "Bangalore",
+                "code": "std:080"
+            },
+            "country": {
+                "name": "India",
+                "code": "IND"
+            }
+        },
+        "bap_id": "example-bap-id",
+        "bap_uri": "https://example-bap-url.com",
+        "bpp_id": "example-bpp-id",
+        "bpp_uri": "https://example-bpp-url.com",
+        "transaction_id": "e0a38442-69b7-4698-aa94-a1b6b5d244c2",
+        "message_id": "6ace310b-6440-4421-a2ed-b484c7548bd5",
+        "timestamp": "2023-02-18T17:00:40.065Z",
+        "version": "1.0.0",
+        "ttl": "PT10M"
+    },
+    "message": {
+        "order": {
+            "provider": {
+                "id": "id of the CPO",
+                "descriptor": {
+                    "name": "CPO name",
+                    "images": [
+                        {
+                            "url": "logo of the CPO"
+                        }
+                    ]
+                }
+            },
+            "items": [
+                {
+                    "id": "id of the Charging Station",
+                    "descriptor": {
+                        "name": "Name of the CS",
+                        "images": [
+                            {
+                                "url": "image 1 of CS"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id of the Charge Point",
+                    "descriptor": {
+                        "name": "Name of the Charge Point",
+                        "code": "Human readable unique code of the Charge Point",
+                        "images": [
+                            {
+                                "url": "image 1 of CP"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "id of the charge point connector",
+                    "descriptor": {
+                        "name": "Type 2",
+                        "code": "Type2",
+                        "images": [
+                            {
+                                "url": "image of the connector's icon"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "tags": [
+                {
+                    "display": true,
+                    "descriptor": {
+                        "name": "Selected Charging Option",
+                        "code": "selected-charging-option"
+                    },
+                    "list": [
+                        {
+                            "display": true,
+                            "value": "100",
+                            "descriptor": {
+                                "name": "Amount",
+                                "code": "amount"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
