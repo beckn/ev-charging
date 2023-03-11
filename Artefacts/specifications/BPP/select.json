@@ -25,50 +25,25 @@
     "message": {
         "order": {
             "provider": {
-                "id": "id of the CPO",
-                "descriptor": {
-                    "name": "CPO name",
-                    "images": [
-                        {
-                            "url": "logo of the CPO"
-                        }
-                    ]
-                }
+                "id": "id of the CPO"
             },
             "items": [
                 {
                     "id": "id of the Charging Station",
                     "descriptor": {
-                        "name": "Name of the CS",
-                        "images": [
-                            {
-                                "url": "image 1 of CS"
-                            }
-                        ]
+                        "code": "charging-station"
                     }
                 },
                 {
                     "id": "id of the Charge Point",
                     "descriptor": {
-                        "name": "Name of the Charge Point",
-                        "code": "Human readable unique code of the Charge Point",
-                        "images": [
-                            {
-                                "url": "image 1 of CP"
-                            }
-                        ]
+                        "code": "charge-point"
                     }
                 },
                 {
                     "id": "id of the charge point connector",
                     "descriptor": {
-                        "name": "Type 2",
-                        "code": "Type2",
-                        "images": [
-                            {
-                                "url": "image of the connector's icon"
-                            }
-                        ]
+                        "code": "connector"
                     }
                 }
             ],
