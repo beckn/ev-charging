@@ -28,6 +28,28 @@
             "tags": [
                 {
                     "descriptor": {
+                        "name": "User Coordinates",
+                        "code": "user-coords"
+                    },
+                    "list": [
+                        {
+                            "descriptor": {
+                                "name": "Latitude",
+                                "code": "lat"
+                            },
+                            "value": "12.39494"
+                        },
+                        {
+                            "descriptor": {
+                                "name": "Longitude",
+                                "code": "lng"
+                            },
+                            "value": "19.399933"
+                        }
+                    ]
+                },
+                {
+                    "descriptor": {
                         "name": "Connector Types",
                         "code": "connector-types"
                     },
